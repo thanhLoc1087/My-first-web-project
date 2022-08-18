@@ -281,7 +281,7 @@ html {
     background: url("./img/slider/polite-cat.jpg") center / cover no-repeat;
 } 
 #content .floppa-cat {
-    background: url(./img/slider/floppa-cat.jpg") center / cover no-repeat;
+    background: url("./img/slider/floppa-cat.jpg") center / cover no-repeat;
 }
 #content .smudge-cat {
     background: url("./img/slider/smudge-cat.jpeg") center / cover no-repeat;
