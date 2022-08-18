@@ -195,7 +195,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("./assets/img/slider/cat.avif") top center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("https://unsplash.com/photos/NodtnCsLdTE") top center / cover no-repeat;
 }
 #slider .slide__2 { 
     /* display: none;  */
@@ -204,7 +204,7 @@ html {
     left: 0;
     right: 0;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("./assets/img/slider/shiba-inu.jpg") center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("https://unsplash.com/photos/w5DZIzjcM9c") bottom center / cover no-repeat;
 }
 #slider .slide__3 {
     /* display: none; */
@@ -212,7 +212,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("./assets/img/slider/moth.jpg") center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("https://unsplash.com/photos/MHM4JUXh_CA") bottom center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -278,13 +278,13 @@ html {
 }
 
 #content .polite-cat {
-    background: url("./assets/img/slider/polite-cat.jpg") center / cover no-repeat;
+    background: url("https://lazi.vn/uploads/group/1642257977_lazi_922662.jpg") bottom center / cover no-repeat;
 } 
 #content .floppa-cat {
-    background: url("./assets/img/slider/floppa-cat.jpg") center / cover no-repeat;
+    background: url("https://i.pinimg.com/564x/96/d1/10/96d110bb32249872d51697f46561ccae.jpg") center / cover no-repeat;
 }
 #content .smudge-cat {
-    background: url("./assets/img/slider/smudge-cat.jpeg") center / cover no-repeat;
+    background: url("https://preview.redd.it/90v5oy3zmbt31.jpg?auto=webp&s=90d9933506d4dffc58ccf77b8b1aaa75b64822dd") center / cover no-repeat;
 }
 
 #content .daily-cats {
