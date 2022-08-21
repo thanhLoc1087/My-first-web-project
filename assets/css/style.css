@@ -216,7 +216,7 @@ html {
     top: var(--bar-height);
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("/My-first-web-project/assets/img/slider/cat.avif") top center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("assets/img/slider/cat.avif") top center / cover no-repeat;
 }
 #slider .slide__2 { 
     /* display: none;  */
@@ -225,7 +225,7 @@ html {
     left: 0;
     right: 0;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("/My-first-web-project/assets/img/slider/shiba-inu.jpg") center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("assets/img/slider/shiba-inu.jpg") center / cover no-repeat;
 }
 #slider .slide__3 {
     /* display: none; */
@@ -233,7 +233,7 @@ html {
     top: var(--bar-height);
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("/My-first-web-project/assets/img/slider/moth.jpg") center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("assets/img/slider/moth.jpg") center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -297,13 +297,13 @@ html {
 }
 
 #content .polite-cat {
-    background: url("/My-first-web-project/assets/img/slider/polite-cat.jpg") center / cover no-repeat;
+    background: url("assets/img/slider/polite-cat.jpg") center / cover no-repeat;
 } 
 #content .floppa-cat {
-    background: url("/My-first-web-project/assets/img/slider/floppa-cat.jpg") center / cover no-repeat;
+    background: url("assets/img/slider/floppa-cat.jpg") center / cover no-repeat;
 }
 #content .smudge-cat {
-    background: url("/My-first-web-project/assets/img/slider/smudge-cat.jpeg") center / cover no-repeat;
+    background: url("assets/img/slider/smudge-cat.jpeg") center / cover no-repeat;
 }
 
 #content #discover {
