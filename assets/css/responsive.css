@@ -1,11 +1,7 @@
 
-/* PC */
-@media (min-width: 1024px) {
 
-}
-
-/* Tablet */
-@media (max-width: 1023px) {
+/* Tablet n Mobile */
+@media (max-width: 63.9375em) {
     .btn {
         padding: 15px 16px;
     }
@@ -16,7 +12,7 @@
 }
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
 
     input {
         font-size: 16px;
