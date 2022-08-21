@@ -57,6 +57,7 @@ html {
     padding: 8px 16px;
     border: none;
     text-decoration: none;
+    -webkit-appearance: none;
 }
 .btn:hover {
     cursor: pointer;
@@ -216,6 +217,7 @@ html {
     top: var(--bar-height);
     left: 0;
     right: 0;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("../img/slider/cat.avif") top center / cover no-repeat;
 }
 #slider .slide__2 { 
     /* display: none;  */
@@ -224,6 +226,7 @@ html {
     left: 0;
     right: 0;
     text-align: center;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("../img/slider/shiba-inu.jpg") center / cover no-repeat;
 }
 #slider .slide__3 {
     /* display: none; */
@@ -231,6 +234,7 @@ html {
     top: var(--bar-height);
     left: 0;
     right: 0;
+    background: linear-gradient(rgba(0,0,0,0) 80%,white), url("../img/slider/moth.jpg") center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -243,11 +247,13 @@ html {
 
 #slider .text-heading {
     font-weight: 100;
+    text-shadow: 0 0 2px #ddd;
     margin-bottom: 25px;
 }
 #slider .text-discription {
     font-weight: 800;
     margin-bottom: 25px;
+    text-shadow: 0 0 1px #ddd;
 }
 
 
@@ -291,6 +297,16 @@ html {
     height: 160px;
     width: 160px;
     border-radius: 4px;
+}
+
+#content .polite-cat {
+    background: url("../img/slider/polite-cat.jpg") center / cover no-repeat;
+} 
+#content .floppa-cat {
+    background: url("../img/slider/floppa-cat.jpg") center / cover no-repeat;
+}
+#content .smudge-cat {
+    background: url("../img/slider/smudge-cat.jpeg") center / cover no-repeat;
 }
 
 #content #discover {
