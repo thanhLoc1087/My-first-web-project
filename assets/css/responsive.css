@@ -1,0 +1,93 @@
+
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #footer {
+        font-size: 28px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    /* HEADER */
+    #header {
+        overflow: hidden;
+    }
+
+    #nav > li {
+        display: block;
+        padding: 1px 1px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav  {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        padding: 8px 36px;
+        color: #fff;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    /* CONTENT */
+    #content .cats-list,
+    #content .members {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #content .member .cat-avt{
+        margin: auto;
+    }
+
+    #content .member + .member {
+        margin-top: 32px;
+    }
+    #content .cat {
+        margin-top: 20px;
+    }
+
+    #content .get-cats li {
+        padding: 8px;
+    }
+
+    /* CONTACT */
+    .contact-body .col-half {
+        width: 100%;
+    }
+    .contact-body div[class*="-info"] {
+        margin-bottom: 32px;
+    }
+    .contact-body .row {
+        margin-bottom: 12px;
+    }
+
+    #contact input[class*="user-"] {
+        margin-bottom: 0;
+    }
+}
