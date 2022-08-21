@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
         <link rel="icon" href="./assets/img/tab-icon.jpg" type="image/x-icon" />
         <link rel="stylesheet" href="./themify-icons/themify-icons.css">
     </head>
@@ -18,7 +19,7 @@
                     <li><a href="#discover">Discover</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             More
                             <i class="nav-arrow-down ti-angle-down"></i>
                         </a>
@@ -36,6 +37,10 @@
                     <i class="search-icon ti-search"></i>
                 </div>
                 <!--END SEARCH-->
+
+                <div class="mobile-menu-btn">
+                    <i class="menu-icon ti-menu"></i>
+                </div>
             </div>
             
             <div id="slider">
@@ -67,6 +72,7 @@
                     <p class="about-text">
                         A recent study from Oregon State University claims that cats not only enjoy human interaction, they may even enjoy it more than food. 50 cats were denied human interaction, food, toys and scents for a few hours. They were then re-introduced to the four stimuli and 50% of the felines chose human interaction over the other three possibilities. These findings not only suggest that cats are more social than we thought, but also has ramifications on how we can train them; the old treat method might not be that effective. This also proves that they're nicer than us; what human would choose talking to someone over a slice of pizza?
                     </p>
+
                     <div class="members">
                         <div class="member">
                             <p class="cat-name">Polite Cat</p>
@@ -77,54 +83,57 @@
                             <div class="cat-avt floppa-cat"></div>
                         </div>
                         <div class="member">
-                            <p class="cat-name">Smudge Lord</p>
+                        <p class="cat-name">Smudge Lord</p>
                             <div class="cat-avt smudge-cat"></div>
                         </div>
                     </div>
                 </div>
                 <!-- GET DAILY CATS SECTION -->
-                <div id="discover" class="content-section daily-cats">
-                    <h2 class="section-heading">More Cats</h2>
-                    <p class="section-subheading">
-                        You wish to see cat pics daily?<br>Choose one and we'll send you daily pics of the cat of your choice directly to you!
-                    </p>
-                    <ul  id="dailies" class="get-cats">
-                        <li>Beluga<span class="ocupied">Ocupied</span></li>
-                        <li>Skittle-chan<span class="ocupied">Ocupied</span></li>
-                        <li>Others <a href="#dailies" class="quantity">3</a></li>
-                    </ul>
-                    <div class="cats-list">
-                        <div class="cat">
-                            <img src="./assets/img/daily-cats/grumpy-cat-3-2.jpg" alt="Grumpy Cat" class="cat-img">
-                            <div class="cat-body">
-                                <h3 class="cat-name">Grumpy Cat</h3>
-                                <p class="cat-time">Every Monday</p>
-                                <p class="cat-discription">
-                                    She was known for her permanently "grumpy" facial appearance.
-                                </p>
-                                <button class="get-cat-btn btn js-get-cat">Get Cat</button>
+                <div id="discover" class="">
+                    <div class="content-section daily-cats">
+                        <h2 class="section-heading">More Cats</h2>
+                        <p class="section-subheading">
+                            You wish to see cat pics daily?
+                            <br>Choose one and we'll send you daily pics of the cat of your choice directly to you!
+                        </p>
+                        <ul class="get-cats">
+                            <li>Beluga<span class="ocupied">Ocupied</span></li>
+                            <li>Skittle-chan<span class="ocupied">Ocupied</span></li>
+                            <li>Others <a href="#dailies" class="quantity">3</a></li>
+                        </ul>
+                        <div id="dailies" class="cats-list">
+                            <div class="cat">
+                                <img src="./assets/img/daily-cats/grumpy-cat-3-2.jpg" alt="Grumpy Cat" class="cat-img">
+                                <div class="cat-body">
+                                    <h3 class="cat-name">Grumpy Cat</h3>
+                                    <p class="cat-time">Every Monday</p>
+                                    <p class="cat-discription">
+                                        She was known widely for her permanently "grumpy" facial appearance.
+                                    </p>
+                                    <button class="get-cat-btn btn js-get-cat">Get Cat</button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="cat">
-                            <img src="./assets/img/daily-cats/james-corden-3-2.png" alt="James Corden" class="cat-img">
-                            <div class="cat-body">
-                                <h3 class="cat-name">Bustopher Jones</h3>
-                                <p class="cat-time">Every Thursday</p>
-                                <p class="cat-discription">
-                                    One of the most ridiculed performances of James Corden, in the movie 'Cats'.
-                                </p>
-                                <button class="get-cat-btn btn js-get-cat">Get Cat</button>
+                            <div class="cat">
+                                <img src="./assets/img/daily-cats/james-corden-3-2.png" alt="James Corden" class="cat-img">
+                                <div class="cat-body">
+                                    <h3 class="cat-name">Bustopher Jones</h3>
+                                    <p class="cat-time">Every Thursday</p>
+                                    <p class="cat-discription">
+                                        One of the most ridiculed performances of James Corden, in the movie 'Cats'.
+                                    </p>
+                                    <button class="get-cat-btn btn js-get-cat">Get Cat</button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="cat">
-                            <img src="./assets/img/daily-cats/strayhero3-2.jpg" alt="Stray" class="cat-img">
-                            <div class="cat-body">
-                                <h3 class="cat-name">Stray</h3>
-                                <p class="cat-time">Every Sunday</p>
-                                <p class="cat-discription">
-                                    A stray cat trying to escape a long-forgotten cybercity to find their way home.
-                                </p>
-                                <button class="get-cat-btn btn js-get-cat">Get Cat</button>
+                            <div class="cat">
+                                <img src="./assets/img/daily-cats/strayhero3-2.jpg" alt="Stray" class="cat-img">
+                                <div class="cat-body">
+                                    <h3 class="cat-name">Stray</h3>
+                                    <p class="cat-time">Every Sunday</p>
+                                    <p class="cat-discription">
+                                        A stray cat trying to escape a long-forgotten cybercity to find their way home.
+                                    </p>
+                                    <button class="get-cat-btn btn js-get-cat">Get Cat</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -186,7 +195,7 @@
                 </p>
                 <p class="copyright">
                     Powered by 
-                    <a href="" class="">locpepepepepepepe</a>
+                    <a href="https://www.facebook.com/locpepepepepepepe/" class="">locpepepepepepepe</a>
                 </p>
             </div>
         </div>
@@ -225,6 +234,36 @@
             </div>
         </div>
 
+
+        <!-- Responsive CSS for mobile -->
+        <script>
+            let header = document.querySelector("#header");
+            const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+            let headerHeight = header.clientHeight;
+            mobileMenuBtn.onclick = function () {
+                var isClosed = header.clientHeight === headerHeight;
+                if (isClosed) {
+                    header.style.height = 'auto';
+                } else {
+                    header.style.height = null;
+                }
+            }
+
+            let menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+            for (var i in menuItems) {
+                let menuItem = menuItems[i];
+                menuItem.onclick = function (event) {
+                    var isParentMenu = this.nextElementSibling && menuItem.nextElementSibling.classList.contains('subnav');
+                    if (isParentMenu) {
+                        event.preventDefault();
+                    } else {
+                        header.style.height = null;
+                    }
+                } 
+            }
+        </script>
+
+        <!-- Slide Show -->
         <script>
             const slides = document.querySelectorAll(".js-slide-show");
             let index = 0;
@@ -237,6 +276,7 @@
 
         </script>
 
+        <!-- Get Cat Modal -->
         <script>
             const getBtns = document.querySelectorAll('.js-get-cat');
             const closeBtn = document.querySelector('.js-close-btn');
